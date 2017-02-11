@@ -1,0 +1,70 @@
+body{
+    background-image: url("css-background.jpg");
+    background-position: center;
+    background-attachment: local;
+}
+
+.but {
+    text-align: center;
+    font-size: 80%;
+    margin: 18px 18px;
+
+}
+.message{
+    color: aliceblue;
+
+    font-size: 150%;
+    text-align: justify;
+    margin: auto;
+
+}
+.biography{
+    background: #cccccc;
+    background: radial-gradient(at top left, #fefcea, #5b5b63);
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: 'Arial', Times, serif;
+    font-size: 100%;
+    border: 2px solid #000000;
+    margin: 5px 1px;
+}
+.learn{
+    background: #cccccc;
+    background: radial-gradient(at top left, #fefcea, #5b5b63);
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: 'Arial', Times, serif;
+    font-size: 100%;
+    border: 2px solid #000000;
+    margin: 5px 1px;
+}
+
+
+.hobby{
+    background: #cccccc;
+    background: radial-gradient(at top left, #fefcea, #5b5b63);
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: 'Arial', Times, serif;
+    font-size: 100%;
+    border: 2px solid #000000;
+    margin: 5px 1px;
+}
+
+
+
+.biography:hover {
+    background: #838383;
+    background: radial-gradient(at bottom right, #fefcea, #5b5b63);
+
+}
+.learn:hover {background: #838383;
+    background: radial-gradient(at bottom right, #fefcea, #5b5b63);}
+.hobby:hover {background: #838383;
+    background: radial-gradient(at bottom right, #fefcea, #5b5b63);}

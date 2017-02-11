@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bio">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body ng-controller="appController">
+
+<div class="but">
+    <button class ="biography" ng-value = "bio" ng-click = "click1()"> Обо мне </button>
+    <button class ="learn" ng-value ="learn" ng-click = "click2()">Образование</button>
+    <button class ="hobby" ng-value ="hobby" ng-click = "click3()">Хобби</button>
+
+</div>
+
+<div class="message">
+    <h1>{{ about }}</h1>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js">
+</script>
+<script src="mainAngular.js">
+</script>
+
+</body>
+</html>
